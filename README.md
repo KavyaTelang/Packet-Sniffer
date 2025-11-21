@@ -85,6 +85,14 @@ nslookup google.com
 ║ Sequence:        1037162066
 ╚════════════════════════════════════════════════════════════╝
 ```
+## Sample Packet Capture
+   
+   ![Packet Sniffer Output](<img width="534" height="638" alt="image" src="https://github.com/user-attachments/assets/3243414b-9976-4f81-af86-bc14cdf830a9" />)
+   
+   *The sniffer captures and parses packets in real-time, displaying detailed protocol information across multiple layers of the TCP/IP stack.*
+```
+
+   Network Interface → Raw Socket → Packet Sniffer → Parse Headers → Display
 
 ## Skills Demonstrated
 - Low-level network programming in C
